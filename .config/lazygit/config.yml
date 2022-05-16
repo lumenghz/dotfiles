@@ -1,0 +1,6 @@
+git:
+  paging:
+    colorArg: always
+    pager: delta -n --dark --paging=never --keep-plus-minus-markers
+  pull:
+    mode: 'rebase'

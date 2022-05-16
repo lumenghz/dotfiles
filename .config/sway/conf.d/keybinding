@@ -1,0 +1,9 @@
+#
+# Custom keybindings
+#
+bindsym $mod+Shift+n exec variety --next
+bindsym $mod+Shift+p exec variety --previous
+bindsym $mod+Shift+d exec variety --trash
+
+bindsym Ctrl+Shift+s exec grimshot --notify copy area
+

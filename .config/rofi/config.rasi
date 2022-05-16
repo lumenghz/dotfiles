@@ -1,0 +1,10 @@
+configuration {
+  font: "TerminessTTF Nerd Font 14";
+  show-icons: true;
+  terminal: "alacritty";
+  ssh-client: "ssh";
+  run-command: "{cmd}";
+}
+
+@theme "cybertransparent"
+
