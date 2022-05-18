@@ -195,17 +195,6 @@ lvim.plugins = {
       })
     end
   },
-  {
-    -- nvim-treesitter mods: generate method docs
-    "nvim-treesitter/nvim-tree-docs",
-    config = function()
-      require("nvim-treesitter.configs").setup({
-        tree_docs = {
-          enable = true,
-        }
-      })
-    end
-  },
   -- Colorscheme
   {
     "tiagovla/tokyodark.nvim",
