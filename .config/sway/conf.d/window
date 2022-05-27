@@ -27,4 +27,5 @@ for_window [class="jetbrains-idea"] opacity 0.9
 for_window [class="jetbrains-webstorm"] opacity 0.9
 for_window [app_id="google-chrome"] opacity 0.95
 for_window [app_id="thunar"] opacity 0.9
+for_window [app_id="obsidian"] opacity 0.9
 
