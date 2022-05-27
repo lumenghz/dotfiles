@@ -66,6 +66,13 @@ lvim.builtin.notify.active = true
 lvim.builtin.terminal.active = true
 lvim.builtin.nvimtree.setup.view.side = "left"
 lvim.builtin.nvimtree.show_icons.git = 1
+lvim.builtin.which_key.mappings["j"] = {
+  name = "Hop jump",
+  W = { "<cmd>HopWord<cr>", "Jump to word" },
+  w = { "<cmd>HopWordCurrentLine<cr>", "Jump to word inline" },
+  S = { "<cmd>HopChar1<cr>", "Jump to char" },
+  s = { "<cmd>HopChar1CurrentLine<cr>", "Jump to char inline" },
+}
 
 -- if you don't want all the parsers change this to a table of the ones you want
 lvim.builtin.treesitter.ensure_installed = {
@@ -194,6 +201,19 @@ lvim.plugins = {
         floating_window = true,
       })
     end
+  },
+  {
+    -- easymotion
+    "phaazon/hop.nvim",
+    branch = "v1",
+    config = function()
+      require("hop").setup()
+    end
+  },
+  {
+    -- multiple cursors
+    "mg979/vim-visual-multi",
+    branch = "master",
   },
   -- Colorscheme
   {

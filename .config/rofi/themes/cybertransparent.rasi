@@ -6,7 +6,7 @@
   fg-col: #0abdc6;
   grey: #D9E0EE;
   width: 600;
-  bg-window: rgba(9, 24, 51, 0.3);
+  bg-window: rgba(9, 24, 51, 0.8);
   border: #ea00d9;
 }
 
